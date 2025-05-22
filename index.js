@@ -82,7 +82,7 @@
 	}
 	
 	var getValue = (key) => {
-		var o = _getObject(key);
+		var o = _getEntryValueObject(key);
 		return o.value;
 	}
 	
