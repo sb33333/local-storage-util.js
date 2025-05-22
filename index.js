@@ -251,7 +251,7 @@
 		
 		doTest(
 			() => {
-				var testVal = "temp;
+				var testVal = "temp";
 				LocalStorageUtil.setValue("@temp_testKey", testVal);
 				var value = LocalStorageUtil.getValue("@temp_testKey");
 				if (value !== testVal) throw new Error(`value("${value}") should be equals to "${testVal}"`);
