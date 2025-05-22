@@ -145,7 +145,7 @@
 	
 	var methods = {
 		/**
-		* 로컬 에 값을 저장합니다.
+		* 로컬 스토리지에 값을 저장합니다.
 		* @param {string} key
 		* @param {any} val
 		* @param {string | null} context 경로 제한 조건(해당 경로로 시작할 경우에만 유효)
