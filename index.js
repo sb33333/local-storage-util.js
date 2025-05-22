@@ -240,7 +240,7 @@
 		doTest(
 			()=>LocalStorageUtil.keys(),
 			function(result) {
-				return result.includes("@testkey");
+				return result.includes("@testKey");
 			}
 		);
 		
